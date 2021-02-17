@@ -38,7 +38,7 @@ public class FlutterBluetoothBasicPlugin implements MethodCallHandler, RequestPe
   private static final String TAG = "BluetoothBasicPlugin";
   private int id = 0;
   private ThreadPool threadPool;
-  private static final int REQUEST_COARSE_LOCATION_PERMISSIONS = 1451;
+  private static final int REQUEST_FINE_LOCATION_PERMISSIONS = 34;
   private static final String NAMESPACE = "flutter_bluetooth_basic";
   private final Registrar registrar;
   private final Activity activity;
